@@ -6,8 +6,10 @@ authors = [
     {name = "CloudberryPiTech",email = "bubblesbakale1@outlook.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 dependencies = [
+    "encoding @ git+https://github.com/cloudberrypitech/encoding",
+    "black (>=26.5.1,<27.0.0)"
 ]
 
 [tool.poetry]
