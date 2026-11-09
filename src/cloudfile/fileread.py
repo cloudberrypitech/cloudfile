@@ -10,9 +10,13 @@ def read_file(filepath, storage_var=None):
     storage_var[:] = [contents]
 
 
-test = read_file("src/cloudfile/__init__.py")
-print(test)
-print("+++++++")
+class Testing:
+    def __init__(self):
+        pass
+    def test_code(self):
+        test = read_file("src/cloudfile/__init__.py")
+        print(test)
+        print("+++++++")
 
-read_file("src/cloudfile/__init__.py", myvar)
-print(*myvar, sep="")
+        read_file("src/cloudfile/__init__.py", myvar)
+        print(*myvar, sep="")
